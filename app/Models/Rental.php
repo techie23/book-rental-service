@@ -26,7 +26,7 @@ class Rental extends Model
     protected $dates = ['rental_date', 'due_date', 'return_date'];
 
      /**
-     * Get the book that is associated with the rental.
+     * Get the book that is associated with the rentals.
      */
     public function book()
     {
